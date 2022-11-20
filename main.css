@@ -11,6 +11,7 @@ h1 {
 
 
 
+
 .kv {
     width: 100%;
     height: 100vh;
@@ -23,11 +24,14 @@ h1 {
 }
 
 .kv .item h1 {
-    background-color: rgb(0, 0, 0, 0.3);
-    color: white;
-    font-size: 30px;
-    text-shadow: none;
+    /*    background-color: rgb(0, 0, 0, 0.3);*/
+    background-color: rgb(200, 200, 200, 0.5);
+    border-radius: 5px;
+    padding: 0px 20px;
+    color: red;
+    font-size: 70px;
     margin-bottom: 30px;
+    box-shadow: 5px 5px 5px rgba(140, 74, 93, 0.7);
 }
 
 .kv .item-img img {
@@ -38,30 +42,58 @@ h1 {
 
 
 .competitive-title {
-    padding-top: 100px;
+    padding-top: 110px;
     text-align: center;
     color: black;
 }
 
 
 .competitive-program {
+    width: 70%;
+    margin: 0px auto;
     padding: 50px 0px;
     margin-bottom: 100px;
+
 }
 
 .competitive-program img {
     display: block;
     margin: auto auto;
     border: 2px solid black;
+    width: 70%;
 }
 
-.card-title {
+.card-introduction {
+    padding-top: 100px;
+}
+
+.card-title-name {
     text-align: center;
     color: black;
 }
 
+.card-title {
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.card-myself {
+    background-color: rgba(240, 174, 193, 0.7);
+    box-shadow: 5px 5px 5px rgba(140, 74, 93, 0.7);
+    position: relative;
+
+}
+
+.card-myself:hover {
+    background-color: aquamarine;
+}
+
+
+
 .grade-title {
     margin-top: 50px;
+    margin-bottom: 30px;
     text-align: center;
     color: black;
 }
@@ -69,6 +101,7 @@ h1 {
 .card-img-top {
     border: 1px solid black;
     border-radius: 50%;
+
 }
 
 .carousel-inner {
@@ -124,12 +157,51 @@ h1 {
     font-size: 20px;
     text-decoration: none;
     margin: 0 30px;
+    margin-bottom: 30px;
 
 }
+
+
 
 .carousel-caption {
     background-color: rgba(184, 184, 184, 0.9);
 
+}
+
+.grade-items {
+    display: flex;
+    justify-content: center;
+
+}
+
+.grade-item {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 400px;
+    margin: 30px 30px;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgba(240, 174, 193, 0.7);
+    box-shadow: 5px 5px 5px rgba(140, 74, 93, 0.7);
+    opacity: 0.9;
+
+
+    /*    border-top: 50px solid transparent;*/
+    /*    border-left: 184px solid #fff;*/
+    /*    border-right: 184px solid #fff;*/
+}
+
+
+
+.grade-subject {
+    font-size: 25px;
+    color: black;
+    word-wrap: normal;
+}
+
+.grade-content {
+    font-size: 60px;
 }
 
 
@@ -162,7 +234,9 @@ h1 {
     padding-bottom: 30px;
     border-radius: 10px;
     margin: 0px 10px;
+    background-color: rgba(240, 174, 193, 0.7);
 
+    box-shadow: 5px 5px 5px rgba(140, 74, 93, 0.7);
 }
 
 #pc1 {
@@ -170,6 +244,7 @@ h1 {
     background-position: center;
     background-size: cover;
     border: 2px solid black;
+
 }
 
 #pc2 {
@@ -199,7 +274,6 @@ h1 {
 }
 
 .nav-item {
-    /*    border: 1px solid gray;*/
     margin: 0px 10px;
     border-radius: 10px;
 }
@@ -207,4 +281,34 @@ h1 {
 
 .nav-item:hover {
     background-color: rgba(0, 0, 0, 0.1);
+}
+
+.cplusplus {
+    display: block;
+    margin: 0px auto;
+    width: 50%;
+    height: 30%;
+}
+
+body {
+    background: linear-gradient(20deg, #BD0F53, #F9C9D9) fixed center center / 100% 100%;
+}
+
+.grade-item img {
+    /*    border: 2px solid red;*/
+    height: 100px;
+}
+
+.container-card {
+    width: 900px;
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-myself {
+    display: inline-block;
+
 }
