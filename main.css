@@ -9,15 +9,10 @@ h1 {
     color: var(--main);
 }
 
-
-
-
 .kv {
     width: 100%;
     height: 100vh;
     display: flex;
-    background-image: url(cover_background.jpg);
-    background-size: 135%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -30,12 +25,19 @@ h1 {
     padding: 0px 20px;
     color: red;
     font-size: 70px;
+    margin-top: 90px;
     margin-bottom: 30px;
     box-shadow: 5px 5px 5px rgba(140, 74, 93, 0.7);
 }
 
+
+.item-img {
+    margin-top: 30px;
+}
+
 .kv .item-img img {
     border-radius: 50%;
+    height: 80%;
 }
 
 
@@ -255,9 +257,10 @@ h1 {
 }
 
 #pc3 {
-    background-image: url(VN.jpeg);
+    background-image: url(visual_novel.JPG);
     background-position: center;
     background-size: cover;
+
     border: 2px solid black;
 }
 
