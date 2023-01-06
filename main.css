@@ -37,7 +37,7 @@ h1 {
 
 .kv .item-img img {
     border-radius: 50%;
-    height: 80%;
+    /*    height: 80%;*/
 }
 
 
@@ -50,6 +50,7 @@ h1 {
 }
 
 
+
 .competitive-program {
     width: 70%;
     margin: 0px auto;
@@ -58,12 +59,40 @@ h1 {
 
 }
 
+.competitive-subject1 {
+    font-size: 40px;
+    color: black;
+}
+
+.competitive-subject2 {
+    font-size: 40px;
+    color: black;
+}
+
+.competitive-subject3 {
+    font-size: 40px;
+    color: black;
+}
+
 .competitive-program img {
     display: block;
     margin: auto auto;
     border: 2px solid black;
     width: 70%;
 }
+
+.competitive-content1 {
+    font-size: 30px;
+}
+
+.competitive-content2 {
+    font-size: 30px;
+}
+
+.competitive-content3 {
+    font-size: 30px;
+}
+
 
 .card-introduction {
     padding-top: 100px;
