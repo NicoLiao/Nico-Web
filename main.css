@@ -293,6 +293,14 @@ h1 {
     border: 2px solid black;
 }
 
+#pc4 {
+    background-image: url(unity_game_2.JPG);
+    background-position: center;
+    background-size: cover;
+
+    border: 2px solid black;
+}
+
 .title {
     margin: 30px;
 }
