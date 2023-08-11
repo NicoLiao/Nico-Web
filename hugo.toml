@@ -97,7 +97,7 @@ btn1_link = "https://play.unity.com/mg/other/webgl-builds-303644"
 [[params.three.feature]]
 icon = "fa-paper-plane"
 title = "Pixiv downloader"
-body = "A program that can download daily top 50 pictures from pixiv."
+body = "The Pixiv Downloader is an intuitive software tool crafted to make the task of downloading illustrations from Pixiv a breeze. Designed with efficiency in mind, it empowers its users to easily fetch the top 50 illustrations from Pixiv's daily ranking page."
 img = "images/pixdownload.png"
 btn1_title="Download"
 btn1_link = "https://github.com/NicoLiao/Pixiv-Downloader/releases/tag/v1.0"
