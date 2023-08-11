@@ -1,0 +1,48 @@
+{{ $md := .Site.Params.body_is_markdown | default false }}
+
+{{ with .Site.Params.three }}
+{{ if .enable }}
+<section id="three" class="wrapper style3 special">
+   <div class="inner">
+
+      <div class="three-video-div">
+         <video width="640" height="360" autoplay loop muted>
+            <source src="images/wizard_hop.mp4" type="video/mp4">
+         </video>
+      </div>
+
+      <header class="major">
+         <h2>{{ .title | safeHTML }}</h2>
+         {{ partial "body_text.html" (dict "context" . "md" $md) }}
+      </header>
+
+
+
+      <ul class="features">
+         {{ range .feature }}
+         <li class="icon {{ .icon }}">
+            <h3>{{ .title | safeHTML }}</h3>
+            <div class="three-image-div"><img class="three-image" src="{{ .img | relURL }}" alt="" />
+            </div>
+
+            <div class="three-button-div">
+               {{if .btn1_title}}
+               <a href="{{ .btn1_link | relURL }}">
+                  <button>{{ .btn1_title | safeHTML }}</button>
+               </a>
+               {{end}}
+               {{if .btn2_title}}
+               <a href="{{ .btn2_link | relURL }}">
+                  <button>{{ .btn2_title | safeHTML }}</button>
+               </a>
+               {{end}}
+            </div>
+
+            <p>{{ .body | safeHTML }}</p>
+         </li>
+         {{ end }}
+      </ul>
+   </div>
+</section>
+{{ end }}
+{{ end }}

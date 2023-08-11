@@ -1,0 +1,175 @@
+baseURL = "/"
+title = "Nico Portfolio"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = "7"
+theme = "spectral"
+
+[params]
+fancyTitle = "Nico Portfolio" # title for frontpage, may include image
+copyright = "images/Nico Liao"
+description = 'USACO gold (top 5%)<br /> APCSA 5 (top score) <br /> Kaggle Contributor <br/> Game & AI Developer <br /> C++, Java, Python, Web development <br/> <img style="height:100px;" src="images/nico2.png">'
+#startbuttonText = "Activate"
+#startbuttonLink = "#"
+body_is_markdown = true
+#custom_css = "foo.css"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+#[[params.menu.main]]
+#url = '/'
+#title = "Home"
+
+#[[params.menu.main]]
+#url = '/posts/'
+#title = "Posts"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = true
+title = "A high school student with a strong passion for <br/>programming, and competitive programming"
+body = '''
+**Competitive Programming**  
+USACO Gold (top 5%)  
+APCSA 5 (top score)  
+Kaggle Contributor  
+TOI Novice Group (full credits)  
+Facebook Hacker Cup (12331 rank)  
+'''
+
+[[params.one.icon]]
+icon = "fa-gem"
+style = "1"
+label = "Lorem"
+
+[[params.one.icon]]
+icon = "fa-heart"
+style = "2"
+label = "Ipsum"
+
+[[params.one.icon]]
+icon = "solid fa-code"
+style = "3"
+label = "Dolor"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "images/nico_usaco_gold.jpg"
+title = 'USACO Gold'
+body = 'USACO Gold represents a high-ranking achievement in the USA Computing Olympiad, signifying advanced proficiency in algorithmic problem-solving.'
+
+[[params.two.section]]
+img = "images/APCSA.jpg"
+title = 'APCSA 5'
+body = 'APCSA 5 is the top score in the Advanced Placement Computer Science A exam, demonstrating excellence in understanding and applying computer science principles.'
+
+[[params.two.section]]
+img = "images/kaggle.jpg"
+title = 'Kaggle Contributor'
+body = 'A Kaggle Contributor engages in data science competitions on Kaggle, a platform for data enthusiasts.'
+
+
+[params.three]
+enable = true
+title = 'I love creating games, website,<br/> desktop software, and AI programming'
+body = '''
+**Software Development**  
+Wizard Hop (2D game)    
+Pixiv downloader (Web crawler)     
+Visual Novel (Web development)  
+Alien Invasion (Python game)   
+'''
+
+[[params.three.feature]]
+icon = "fa-paper-plane"
+title = "Wizard Hop"
+body = "This is a 2D platformer game. The player controls a wizard and tries to get to the last level. There are 3 levels in total, which each level contains different moster. You have to kill all the monsters and get to the goal to complete the game."
+img = "images/unity_game.JPG"
+btn1_title="Game"
+btn1_link = "https://play.unity.com/mg/other/webgl-builds-303644"
+
+
+[[params.three.feature]]
+icon = "fa-paper-plane"
+title = "Pixiv downloader"
+body = "A program that can download daily top 50 pictures from pixiv."
+img = "images/pixdownload.png"
+btn1_title="Download"
+btn1_link = "https://github.com/NicoLiao/Pixiv-Downloader/releases/tag/v1.0"
+btn2_title="Github"
+btn2_link = "https://github.com/NicoLiao/Pixiv-Downloader"
+
+
+[[params.three.feature]]
+icon = "fa-paper-plane"
+title = "Visual Novel"
+body = "A cool, anime styled visual novel. Different choices lead to complete different and unexpected endings, it's all up to the players."
+img = "images/visual_novel.JPG"
+btn1_title="Game"
+btn1_link = "https://nicoliao.github.io/VisualNovel/main.html"
+btn2_title="Github"
+btn2_link ="https://github.com/NicoLiao/VisualNovel"
+
+[[params.three.feature]]
+icon = "fa-paper-plane"
+title = "Alien Invasion"
+body = "A game that you can shoot aliens with a spaceship. You have three lives and you gain score after killing an alien."
+img = "images/invasion_card.png"
+btn1_title="Game"
+btn1_link = "https://replit.com/@Yokasi/AlienAi#alien.py"
+btn2_title="Github"
+btn2_link ="https://github.com/NicoLiao/Alien-invasion"
+
+
+
+[params.cta]
+enable = false
+title = "Arcue ut vel commodo"
+body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
+
+[[params.cta.link]]
+href = "#"
+text = "Activate"
+special = true
+
+[[params.cta.link]]
+href = "#"
+text = "Learn More"
+special = false
+
+[params.contact]
+enable = false
+title = "Contact"
+body = "Leave us a message."
+address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+email = "applenico0507@gmail.com"
+subject = "New Submission!"
+formspree_form_id = "example_invalid"
+
+[params.social]
+twitter = ""
+mastodon = ""
+github = "https://github.com/NicoLiao"
+facebook = ""
+youtube = ""
+instagram = ""
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
+
+[languages.es]
+weight = 10
+languageName = "Español"
