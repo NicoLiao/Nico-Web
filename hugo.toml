@@ -5,7 +5,6 @@ defaultContentLanguage = "en"
 paginate = "7"
 theme = "spectral"
 
-
 [params]
 fancyTitle = "Nico Portfolio" # title for frontpage, may include image
 copyright = "images/Nico Liao"
