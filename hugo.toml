@@ -7,9 +7,10 @@ theme = "spectral"
 
 
 [params]
+bannerImg="images/nico2.png"
 fancyTitle = "Nico Portfolio" # title for frontpage, may include image
 copyright = "images/Nico Liao"
-description = 'USACO gold (top 5%)<br /> APCSA 5 (top score) <br /> Kaggle Contributor <br/> Game & AI Developer <br /> C++, Java, Python, Web development <br/> <img style="height:100px;" src="images/nico2.png">'
+description = 'USACO gold (top 5%)<br /> APCSA 5 (top score) <br /> Kaggle Contributor <br/> Game & AI Developer <br /> C++, Java, Python, Web development <br/>'
 #startbuttonText = "Activate"
 #startbuttonLink = "#"
 body_is_markdown = true
