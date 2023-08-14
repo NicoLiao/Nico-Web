@@ -29,6 +29,7 @@ body_is_markdown = true
     category = "categories"
     series = "series"
 
+
 [params.one]
 enable = true
 title = "A high school student with a strong passion for <br/>programming, and competitive programming"
