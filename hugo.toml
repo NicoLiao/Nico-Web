@@ -75,7 +75,6 @@ img = "images/kaggle.jpg"
 title = 'Kaggle Contributor'
 body = 'A Kaggle Contributor engages in data science competitions on Kaggle, a platform for data enthusiasts.'
 
-
 [params.three]
 enable = true
 title = 'I love creating games, website,<br/> desktop software, and AI programming'
@@ -126,7 +125,6 @@ btn1_title="Game"
 btn1_link = "https://replit.com/@Yokasi/AlienAi#alien.py"
 btn2_title="Github"
 btn2_link ="https://github.com/NicoLiao/Alien-invasion"
-
 
 
 [params.cta]
