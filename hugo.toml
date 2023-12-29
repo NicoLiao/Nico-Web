@@ -9,7 +9,7 @@ theme = "spectral"
 bannerImg="images/nico2.png"
 fancyTitle = "Nico Portfolio" # title for frontpage, may include image
 copyright = "images/Nico Liao"
-description = 'USACO gold (top 5%)<br /> APCSA 5 (top score) <br /> Kaggle Contributor <br/> Game & AI Developer <br /> C++, Java, Python, Web development <br/>'
+description = 'USACO gold (top 5%)<br /> APCSA 5 <br /> Kaggle Contributor <br/> Game & AI Developer <br /> C++, Java, Python, Web development <br/>'
 #startbuttonText = "Activate"
 #startbuttonLink = "#"
 body_is_markdown = true
@@ -32,14 +32,14 @@ body_is_markdown = true
 
 [params.one]
 enable = true
-title = "A high school student with a strong passion for <br/>programming, and competitive programming"
+title = "A high school student with a strong passion for <br/>programming and competitive programming"
 body = '''
 **Competitive Programming**  
 USACO Gold (top 5%)  
-APCSA 5 (top score)  
+APCSA 5  
 Kaggle Contributor  
 TOI Novice Group (full credits)  
-Facebook Hacker Cup (12331 rank)  
+Facebook Hacker Cup  
 '''
 
 [[params.one.icon]]
@@ -75,15 +75,22 @@ img = "images/kaggle.jpg"
 title = 'Kaggle Contributor'
 body = 'A Kaggle Contributor engages in data science competitions on Kaggle, a platform for data enthusiasts.'
 
+[[params.two.section]]
+img = "images/meta2.png"
+title = 'Meta Hacker Cup'
+body = 'The META Hacker Cup is a competition where participants demonstrate their programming and cybersecurity prowess through challenging tasks.'
+
 [params.three]
 enable = true
-title = 'I love creating games, website,<br/> desktop software, and AI programming'
+title = 'I love creating games, website,<br/> and desktop software'
 body = '''
 **Software Development**  
 Wizard Hop (2D game)    
 Pixiv downloader (Web crawler)     
 Visual Novel (Web development)  
-Alien Invasion (Python game)   
+Alien Invasion (Python game)    
+AniGame (C++ game)   
+FanPage (Web development)
 '''
 
 [[params.three.feature]]
@@ -126,6 +133,49 @@ btn1_link = "https://replit.com/@Yokasi/AlienAi#alien.py"
 btn2_title="Github"
 btn2_link ="https://github.com/NicoLiao/Alien-invasion"
 
+[[params.three.feature]]
+icon = "fa-paper-plane"
+title = "AniGame"
+body = "A text-style card game inspired by a Discord Game, where you get a random character and on your way to defeat levels of enemies."
+img = "images/anigame.png"
+btn2_title="Github"
+btn2_link ="https://github.com/NicoLiao/Anigame"
+
+[[params.three.feature]]
+icon = "fa-paper-plane"
+title = "FanPage"
+body = "A Fanpage made for my favorite Vtuber - Amatsuka Uto"
+img = "images/uto.png"
+btn1_title="Website"
+btn1_link = "https://nicoliao.github.io/Fanpage/Home.html"
+btn2_title="Github"
+btn2_link ="https://github.com/NicoLiao/Fanpage"
+
+[params.three_two]
+enable = true
+title = 'AI Projects'
+body = '''
+**Software Development**  
+Number Guesser  
+Anime Predictor
+'''
+
+[[params.three_two.feature]]
+icon = "fa-paper-plane"
+title = "Number Guesser"
+body = "An AI-based number guesser that can predict the number drawn by the user on the board."
+img = "images/banner.png"
+btn2_title="Github"
+btn2_link = "https://github.com/NicoLiao/Verify-Number"
+
+
+[[params.three_two.feature]]
+icon = "fa-paper-plane"
+title = "Anime Predictor"
+body = "This is a software to classify anime characters. User can upload a picture of an anime character and the software will predict which character it is."
+img = "images/predictor.jpg"
+btn2_title="Github"
+btn2_link ="https://github.com/NicoLiao/Anime-character-predictor"
 
 [params.cta]
 enable = false
